@@ -1,0 +1,15 @@
+---
+title: Snorkeling
+subtitle: Explore the reefs with us
+layout: default
+modal-id: 4
+date: 2014-07-15
+img: snorkeling.png
+thumbnail: snorkeling-thumbnail.png
+alt: image-alt
+cost: Included in Liveaboard
+client: Start Bootstrap
+category: Web Development
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+
+---

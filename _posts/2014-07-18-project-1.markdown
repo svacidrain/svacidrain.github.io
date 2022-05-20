@@ -1,0 +1,15 @@
+---
+title: Liveaboard
+subtitle: A day or two in the life of a sea nomad
+layout: default
+modal-id: 1
+date: 2014-07-18
+img: liveaboard.png
+thumbnail: liveaboard-thumbnail.png
+alt: image-alt
+cost: EUR 35-85, depending on location and additional services (meals, etc.)
+client: Start Bootstrap
+category: Web Development
+description: 
+
+---

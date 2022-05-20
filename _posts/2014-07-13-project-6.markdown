@@ -1,0 +1,15 @@
+---
+title: Diesel Engine Maintenance
+subtitle: Prevent and solve diesel engine failures
+layout: default
+modal-id: 6
+date: 2014-07-15
+img: diesel.png
+thumbnail: diesel-thumbnail.png
+alt: image-alt
+cost: 99 EUR
+client: Start Bootstrap
+category: 
+description: This course will help you prevent and solve diesel engine failures. The course will give awareness of the main systems of a marine diesel engine and the ability to prevent breakdown at sea & rectify defects not requiring workshop support. Mechanical failure is the main cause of lifeboat callouts to yachts. This course includes basic maintenance and engine care which will prevent most cases of engine failure.
+
+---

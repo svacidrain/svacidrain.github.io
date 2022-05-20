@@ -1,0 +1,20 @@
+---
+title: Milebuilder
+subtitle: For forty days or even more ...
+layout: default
+modal-id: 2
+date: 2014-07-17
+img: milebuilder.png
+thumbnail: milebuilder-thumbnail.png
+alt: image-alt
+cost: Depends on duration - see below for upcoming trips
+client: Start Bootstrap
+category: Web Development
+description: 
+    Building miles is part of many sailing curriculums and there is no better way to earn the nautical miles required than sailing in stunning locations. No matter if you are working towards RYA or ASA certifications, we can help you earn those miles in the most spectacular way! 
+    <br>
+    You will be actively engaged in the planning and execution of each passage and you’ll be learning together with other like-minded students.
+    <br><br>
+    With the guidance of our experienced skipper, you can also sail on longer passagesor or even do a Yachmaster Ocean qualifying passage (600NM). 
+
+---

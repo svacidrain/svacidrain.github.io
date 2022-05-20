@@ -1,1 +1,34 @@
-theme: jekyll-theme-tactile
+url: https://y7kim.github.io
+baseurl: 
+
+# Site settings
+title: SV Acid Rain
+email: your-email@domain.com
+description: "Welcome to the website of SV Acid Rain! Ride the waves, live your dream!"
+
+
+# Team names, titles and social links
+people:
+- name: Alex
+  pic: 1
+  position: Captain
+  bio: Alex is an experienced skipper, having accumulated xxx miles on his log throughout xxx and North Atlantic. 
+  social:
+    - title: instagram
+      url: https://www.instagram.com/kurtfisher24/
+
+- name: Patches
+  pic: 2
+  position: First mate
+  bio: Patches is the newest crew member on SV Acid Rain, having joined in October 2021, quickly climbing the ranks from competent crew to first mate.  
+  social:
+    - title: instagram
+      url: https://www.instagram.com/sv.acid.rain/
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Canary Islands
+
+# Build settings
+markdown: kramdown
+permalink: pretty
