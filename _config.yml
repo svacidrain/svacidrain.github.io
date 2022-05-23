@@ -1,9 +1,9 @@
-url: https://y7kim.github.io
+url: http://www.svacidrain.com/
 baseurl: 
 
 # Site settings
 title: SV Acid Rain
-email: your-email@domain.com
+email: svacidrain@gmail.com
 description: "Welcome to the website of SV Acid Rain! Ride the waves, live your dream!"
 
 
@@ -15,7 +15,7 @@ people:
   bio: Alex is an experienced skipper, having accumulated xxx miles on his log throughout xxx and North Atlantic. 
   social:
     - title: instagram
-      url: https://www.instagram.com/kurtfisher24/
+      url: https://www.instagram.com/sv.acid.rain/
 
 - name: Patches
   pic: 2
@@ -25,9 +25,14 @@ people:
     - title: instagram
       url: https://www.instagram.com/sv.acid.rain/
 
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: instagram
+    url: https://www.instagram.com/sv.acid.rain/
+
 # Postal address (add as many lines as necessary)
 address:
-  - line: Canary Islands
+  - line: Around the World
 
 # Build settings
 markdown: kramdown
