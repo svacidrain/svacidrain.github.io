@@ -1,15 +1,16 @@
 ---
 title: Yoga
-subtitle: Beach hopping yoga
+subtitle: A spiritual door to the natural world 
 layout: default
 modal-id: 3
 date: 2014-07-16
 img: yoga.png
 thumbnail: yoga-thumbnail.png
 alt: image-alt
+cost: Included in the Liveaboard experience
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Yoga! I try to describe it how I see it in my eyes. Whenever possible I try to make yoga part of our day. We always carry a spare mat!. I kind of just fell into yoga as a way of dealing with the overwhelming amount of information the modern brain has to process. Through yoga, I found I was able to switch off it all and in time filter out what was useful and necessary information. However, the practice became so much more than that. As time went by it opened a new more spiritual door in which the natural world took the front seat. Love, forgiveness, kindness, being present, care for yourself and others, appreciation, and connecting with what is real in a world gone mad! This is what yoga taught me and is still teaching me every day. The limits of yoga seem endless to me. I'm not a yoga teacher and I don't profess to be, but I invite anyone to join my daily practice. It's not about being flexible or able to hold difficult poses. For me, it's more about connecting and treating your body kindly, seeing the world in a more grateful and positive way, accepting, and helping yourself and others. Then of course there are the physical benefits like the relief of back or other body pains, better posture, stronger muscles, and the list goes on. Once you start being kind to yourself in this way then there is also the knock-on effect of wanting to take care of your diet watching what you put in your body and perhaps your social diet too by surrounding yourself with people with who you have a healthy social connection with. By monitoring these and other daily practices the positive effects are endless and the soul is content. I found the time and desire to give back to the natural world that has given us so much. With this in mind, I try to make yoga part of every morning and sometimes evening too.
 
 ---
