@@ -7,7 +7,7 @@ date: 2014-07-18
 img: liveaboard.png
 thumbnail: liveaboard-thumbnail.png
 alt: image-alt
-cost: EUR 35-85, depending on location and additional services (meals, etc.)
+cost: depending on location and additional services (meals, etc.)
 client: Start Bootstrap
 category: Web Development
 description: 
