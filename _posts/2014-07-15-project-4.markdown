@@ -10,6 +10,6 @@ alt: image-alt
 cost: Included in Liveaboard
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: There are currently 5 sets of snorkeling gear onboard that your welcome to use, you may of course wish to use your own. At almost every anchorage there is a chance to snorkel and see some beautiful fish and reefs, if you enjoy fishing or spearfishing there are basic rods onboard and a couple of spear guns. We always try to practice sustainable fishing and only take what we need. This is a great way to learn about fish, habitats and the environment.
 
 ---
