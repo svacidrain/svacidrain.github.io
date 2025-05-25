@@ -1,20 +1,134 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Save Acid Rain</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: auto;
+      font-family: sans-serif;
+      background: black;
+      color: white;
+    }
+    #slideshow {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+    .slide {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0;
+      transition: opacity 1s;
+    }
+    .slide.show {
+      opacity: 1;
+    }
+    #overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+      z-index: 2;
+      background: rgba(0, 0, 0, 0.3);
+      flex-direction: column;
+      padding: 2rem;
+    }
+    #title {
+      font-size: 3rem;
+      cursor: pointer;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+      text-align: center;
+    }
+    #details {
+      display: none;
+      margin-top: 2rem;
+      max-width: 600px;
+      font-size: 1.2rem;
+      line-height: 1.6;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 1rem;
+      border-radius: 10px;
+      align-self: center;
+    }
+    #details a {
+      color: #aeeeff;
+      text-decoration: underline;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div id="slideshow"></div>
+  <div id="overlay">
+    <div id="title">Save Acid Rain</div>
+    <div id="details">
+      Imagine losing your home, your possessions, and your entire way of life—twice.<br><br>
+      That’s exactly what happened to our dear friend, Alex Carter, a devoted sailor whose boat was his home.<br><br>
+      While sailing through the Gulf of America, disaster struck. A catastrophic rudder failure left Alex adrift while taking water. He was eventually rescued by a container ship, but his sailboat, ACID RAIN, was left to the mercy of the ocean. For 5–6 weeks, it drifted alone across hundreds of miles before finally washing ashore in an extremely remote part of coastal Louisiana, battered, broken and instantly burglarized.<br><br>
+      <a href="https://www.gofundme.com/f/help-rebuild-a-life-lost-at-sea" target="_blank">Read more ...</a>
+    </div>
+  </div>
+  <audio id="bg-audio" loop>
+    <source src="audio/waves.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <script>
+    const images = [
+      'images/01.jpeg',
+      'images/02.jpeg',
+      'images/03.jpeg',
+      'images/04.jpeg',
+      'images/05.jpeg'
+    ];
 
-<div class="home">
+    const slideshow = document.getElementById('slideshow');
+    let index = 0;
 
-  <h1>Posts</h1>
+    images.forEach((src, i) => {
+      const img = document.createElement('img');
+      img.src = src;
+      img.className = 'slide';
+      if (i === 0) img.classList.add('show');
+      slideshow.appendChild(img);
+    });
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+    setInterval(() => {
+      const slides = document.querySelectorAll('.slide');
+      slides[index].classList.remove('show');
+      index = (index + 1) % slides.length;
+      slides[index].classList.add('show');
+    }, 5000);
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    const showDetails = () => {
+      document.getElementById('details').style.display = 'block';
+    };
 
-</div>
+    document.getElementById('title').addEventListener('click', showDetails);
+    window.addEventListener('scroll', showDetails);
+
+    // Audio autoplay workaround for browsers
+    window.addEventListener('click', () => {
+      const audio = document.getElementById('bg-audio');
+      if (audio.paused) {
+        audio.play().catch(err => console.warn('Audio play prevented:', err));
+      }
+    });
+  </script>
+</body>
+</html>
